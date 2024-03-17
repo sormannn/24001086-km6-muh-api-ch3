@@ -1,0 +1,141 @@
+@media (max-width: 360px) {
+    header ul {
+        display: none;
+    }
+
+    .top-wrapper-card {
+        width: 100%;
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+
+    .top-wrapper-content img {
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .service-wrapper {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .service-wrapper-logo {
+        width: 252px;
+        height: 228px;
+        margin-bottom: 24px;
+        float: none; /* Menghapus float */
+        margin: 0 auto; /* Menengahkan gambar dengan margin otomatis di kiri dan kanan */
+        display: block;
+        margin-bottom: 24px;
+    }
+
+    .service-wrapper-card {
+        width: 100%;
+    }
+
+    .service-wrapper-card h2,
+    .service-wrapper-card p {
+        margin-bottom: 16px; /* Gabungkan margin-bottom ke dalam satu aturan */
+    }
+
+    .why-wrapper-heading {
+        text-align: center;
+    }
+
+    .why-wrapper-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px; /* Ubah gap menjadi 16px */
+        flex-direction: column;
+    }
+
+    .list {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .banner-wrapper-content {
+        padding:64px 58px;
+    }
+
+    .banner-wrapper-content h1 {
+
+        font-family: Helvetica;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        margin-bottom:16px;
+
+    }
+
+    .banner-wrapper-content p {
+
+
+        font-family: Helvetica;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    #carouselExample {
+        margin: 0 auto;
+        width: 328px;
+        height: 392px;
+        padding: 40px 32px;
+      }
+
+
+      .accordion-wrapper {
+        text-align: center;
+      }
+
+      .accordion-wrapper p {
+        margin-bottom: 16px;
+      }
+
+      .accordion {
+        width:100%;
+      }
+
+      .footer1, .footer2, .footer3, .footer4 {
+        margin-bottom: 16px;
+      }
+
+      .btn {
+        display: block;
+      }
+
+      .offcanvas.show {
+        width: 50%;
+        padding: 32px 24px 16px 16px;
+      }
+      
+      
+
+      .offcanvas.show h5 {
+
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+
+      }
+
+      .offcanvas-body a{
+        display: inline-block;
+        margin-bottom:16px;
+      }
+
+      
+
+    
+
+
+}
