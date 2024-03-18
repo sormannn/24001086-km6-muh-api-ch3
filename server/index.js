@@ -24,7 +24,6 @@ app.get('/', (req, res) => {
 
 // Endpoint untuk mendapatkan seluruh data mobil
 app.get('/list-cars', (req, res) => {
-    console.log(CARS_FILE_PATH)
 	res.json(cars);
     
 });
