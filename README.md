@@ -1,39 +1,16 @@
-# Binar: Challenge 04
+# Binar: Challenge 03
 
 - Mulai modifikasi file `server/index.js` apabila ingin membuat HTTP server.
 - Mulai modifikasi folder `public` apabila ingin memodifikasi HTML.
 
-# `Binar` class
+# Cara Pakai
 
-Class ini berisi 1 static method saja, yang berfungsi untuk mengambil data mobil dari internet.
+- GET /list-cars: Mengembalikan daftar semua mobil yang ada.
+- GET /detail-car/:id: Mengembalikan detail mobil berdasarkan ID yang diberikan.
+- POST /create-car: Menambahkan data mobil baru.
+- PUT /update-car/:id: Memperbarui data mobil berdasarkan ID yang diberikan.
+- DELETE /delete-car/:id: Menghapus data mobil berdasarkan ID yang diberikan.
 
-```typescript
-interface Car {
-  id: string;
-  plate: string;
-  manufacture: string;
-  model: string;
-  image: string;
-  rentPerDay: number;
-  capacity: number;
-  description: string;
-  transmission: string;
-  available: boolean;
-  type: string;
-  year: string;
-  options: Array<string>;
-  specs: Array<string>;
-}
+# Note
 
-interface Binar {
-  listCars(filterer: (car: Car) => boolean): Array<Car>
-}
-```
-
-Method `listCars` ini akan menerima fungsi yang mana harus mengembalikan `boolean` sebagai nilainya. 
-Fungsi ini akan dijalankan untuk masing-masing item di dalam list of cars, yang mana jika nilainya `true`,
-maka akan ditampilkan di dalam list tersebut.
-
-# Tips
-
-Just, hack it bro!
+- Data JSON yang digunakan adalah berdasarkan /data/cars.json

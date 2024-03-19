@@ -25,7 +25,6 @@ app.get('/', (req, res) => {
 // Endpoint untuk mendapatkan seluruh data mobil
 app.get('/list-cars', (req, res) => {
 	res.json(cars);
-    
 });
 
 // Endpoint untuk mendapatkan detail mobil berdasarkan ID
